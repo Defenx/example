@@ -3,11 +3,11 @@ import java.io.IOException;
 public class Runner {
 
     public static void main(String[] args) throws IOException {
+
         printNames();
         printNames("Valera");
         printNames("Valera", "Olya", "Danik");
         printNames("Valera", "Olya", "Danik", "Vasya");
-        //ABC
     }
 
     static void printNames(String... names) {

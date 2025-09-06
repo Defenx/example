@@ -7,6 +7,7 @@ public class Runner {
         printNames();
         printNames("Valera");
         printNames("Valera", "Olya", "Danik");
+        printNames("Valera", "Olya", "Danik", "Vasya");
     }
 
     static void printNames(String... names) {
